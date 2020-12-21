@@ -1,0 +1,12 @@
+.vagrant/*
+.devops
+*.code-workspace
+*.vdi
+temp
+dev.manifest.*
+*.manifest
+docker-compose.override.yml*
+docker-compose.yml.bak
+docker-compose.yml
+.env
+.DS_Store
