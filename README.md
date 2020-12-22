@@ -1,19 +1,14 @@
 # VagrantArch
 
-	Arch Linux Vagrant Setup
+	Arch Linux Vagrant Setup with VirtualBox
 
 ### Useful Vagrant Commands
 
 	$ vagrant up (start)
-
 	$ vagrant ssh (login)
-
 	$ vagrant provision (test provisioners)
-
 	$ vagrant halt (stop)
-
 	$ vagrant suspend (suspend)
-
 	$ vagrant reload (restart)
 
 ### Linux Commands
@@ -22,9 +17,9 @@
 	$ sudo su
 
 	- Tmate
-	$ pacman -S tmate #install
-	$ ssh-keygen #generate ssh keys (-t rsa)
-	$ tmate #start tmate
-	$ tmate show-messages #show tmate ssh session id
-	$ ssh <ssh_session_id> #connect via ssh
-	$ exit #close connection 
+	$ pacman -S tmate # Install
+	$ ssh-keygen # Generate ssh keys (-t rsa)
+	$ tmate # Start tmate
+	$ tmate show-messages # Show tmate ssh session id
+	$ ssh <ssh_session_id> # Connect via ssh
+	$ exit # Close connection 
