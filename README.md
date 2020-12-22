@@ -10,6 +10,7 @@
 	$ vagrant halt (stop)
 	$ vagrant suspend (suspend)
 	$ vagrant reload (restart)
+	$ vagrant upgrade (upgrade)
 
 ### Linux Commands
 
