@@ -1,6 +1,6 @@
-# VagrantArch
+# VagrantEnvironments
 
-	Arch Linux Vagrant Setup with VirtualBox
+	1. Arch Linux with VirtualBox
 
 ### Useful Vagrant Commands
 
@@ -14,13 +14,15 @@
 
 ### Linux Commands
 
-	- Admin
-	$ sudo su
+	1. ArchLinux
+	
+		- Admin
+		$ sudo su
 
-	- Tmate
-	$ pacman -S tmate # Install
-	$ ssh-keygen # Generate ssh keys (-t rsa)
-	$ tmate # Start tmate
-	$ tmate show-messages # Show tmate ssh session id
-	$ ssh <ssh_session_id> # Connect via ssh
-	$ exit # Close connection 
+		- Tmate
+		$ pacman -S tmate # Install
+		$ ssh-keygen # Generate ssh keys (-t rsa)
+		$ tmate # Start tmate
+		$ tmate show-messages # Show tmate ssh session id
+		$ ssh <ssh_session_id> # Connect via ssh
+		$ exit # Close connection
